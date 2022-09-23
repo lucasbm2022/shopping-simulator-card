@@ -1,0 +1,94 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: 'anti';
+  src: url('fonts/antipasto/Antipasto-Pro-ExtraLight-trial.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'creato';
+  src: url('fonts/creato_display/CreatoDisplay-Regular.otf') format('truetype');
+}
+@font-face {
+  font-family: 'bohemian';
+  src: url('fonts/bohemian_soul/Bohemian\ Soul.otf') format('truetype');
+}
+
+body{
+  background-color: hsl(30, 38%, 92%);
+}
+
+main{
+  position: absolute;
+  top: 10%;
+  left: 20%;
+  min-width: 375px;
+  max-width: 1440px;
+  margin: auto;
+  overflow: hidden;
+}
+
+img {
+  width: 375px;
+  height: 475px;
+  border-radius: 10px 0px 0px 10px;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+img:hover{
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+img, .txt {
+  background-color: hsl(0, 0%, 100%);
+  float: left;
+}
+
+.txt{
+  display: flex;
+  flex-direction: column;
+  width: 375px;
+  height: 475px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 10px 10px 0px;
+}
+
+h3{
+  font-family: 'anti', 'sans-serif';
+  color: gray;
+}
+p{
+  font-family: 'creato', 'sans-serif';
+  color: gray;
+}
+h2 > small{
+  color: gray;
+  font-size: small;
+}
+h1{
+  font-size: xx-large;
+}
+h2{
+  font-family: 'bohemian', 'sans-serif';
+  color: hsl(158, 36%, 37%);
+}
+
+button{
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(158, 36%, 37%);
+  padding: 15px 70px;
+  border-radius: 7px;
+  border-style: none;
+  display:inline-block;
+  cursor:pointer;
+}
+
+button:active {
+  position:relative;
+  top:2px;
+}
+   
