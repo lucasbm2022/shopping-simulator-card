@@ -1,2 +1,2 @@
 # shopping-simulator-card
-Meat to simulate purchases on the website.
+Card to simulate purchases on the site.
